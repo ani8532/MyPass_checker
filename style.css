@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1F26; 
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #FF6F61; 
+    color: white;
+    width: 100%;
+}
+.navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.main_cont {
+    background-color: #4A90E2; 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    position:relative;
+    
+     
+}
+h1 {
+    margin-top: 15px ;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+h2{
+    margin: 10px;
+    font-size: 24px;
+    color: #F8F8F8;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #F8F8F8;
+    
+}
+.password-container {
+    width: 70%;
+    
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.password-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2C3E50;
+    font-weight: bold;
+}
+.password-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #ffffff;
+    color: black;
+}
+.password-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.password-container button:hover {
+    background-color: #C70039;
+}
+footer {
+    width: 100%;
+    background: #2e4053;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    
+    margin-top: auto;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin: 20px auto;
+    color: white;
+}
+.result h2 {
+    margin-bottom: 10px;
+}
+.result p {
+    font-size: 16px;
+}
+
+.result-img {
+    max-width: 300px; 
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.nav-links {
+        display: none;
+        flex-direction: column;
+        background: #FF6F61;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+.nav-links li {
+        margin: 10px 0;
+    }
+.menu-toggle {
+        display: block;
+    }
+.show {
+        display: flex;
+    }
+.main_cont {
+        padding: 20px;
+    }
+h1 {
+        font-size: 23px;
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+
+    }
+h2 {
+        font-size: 19px;
+    }
+h3 {
+        font-size: 18px;
+        
+    }
+.password-container {
+        padding: 15px;
+    }
+.password-container button {
+        font-size: 14px;
+    }
+
+.result {
+    max-width: 100%; 
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 0; 
+    left:0
+    
+    }
+#result-image {
+    max-width: 200px;
+    }
+footer{
+    position: relative;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

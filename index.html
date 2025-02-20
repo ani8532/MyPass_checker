@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="title">My Checker</div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>"Secure Your Digital Life with a Strong Password!"</h1>
+        <h2>Creating a strong password is the first step towards online security.</h2>
+        <h3> Use our password strength checker to ensure your credentials are safe and reliable.</h3>
+        <div class="main_cont">
+        <div class="password-container">
+            <label for="password">Enter Your Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <button onclick="checkPasswordStrength()">Check Strength</button>
+        </div>
+        </div>
+    </main>
+    <img id="result-image" src="" alt="Password Strength" class="result-img" style="display: none;">
+    
+    <div class="result" id="result"></div>
+    
+    <footer>
+        &copy; 2025 SecurePass. All rights reserved.
+    </footer>
+
+</body>
+<script src="index.js"></script>
+</html>
